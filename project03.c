@@ -346,7 +346,7 @@ int main(int argc, char *argv[]) {
       print(board);
 //find the best move
     struct move * play = bot_move(board);
-    printf("O: %d %d", play -> row, play -> col);
+    printf("O: %d %d\n", play -> row, play -> col);
     free(play); 
   }
 }
