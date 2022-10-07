@@ -324,11 +324,11 @@ int main(int argc, char *argv[]) {
       }
       char winner = check_wins(board);
       if(winner == 'T'){
-            printf("draw");
+            printf("draw\n");
         }else if(winner == 'X'){
-            printf("X wins");
+            printf("X wins\n");
         }else if(winner == 'O'){
-            printf("O wins");
+            printf("O wins\n");
       }
   }
 
